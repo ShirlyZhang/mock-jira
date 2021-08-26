@@ -12,3 +12,4 @@ componentsContext.keys().forEach(component => {
    const ctrl = componentConfig.default || componentConfig
    Vue.component(ctrl.name, ctrl)
 })
+
