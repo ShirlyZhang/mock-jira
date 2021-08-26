@@ -17,7 +17,7 @@ routerContext.keys().forEach(route => {
   */
   routes = [...routes, ...(routerModule.default || routerModule)]
 })
-
+// 
 export default new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
