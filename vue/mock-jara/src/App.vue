@@ -2,9 +2,9 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>  |  
-      <router-link :to="{path:'/Login',query:{currentType:'login'}}">登陆</router-link>  |  
-      <router-link :to="{path:'/Login',query:{currentType:'register'}}">注册</router-link>
+      <!-- <router-link to="/about">About</router-link>  |   -->
+      <!-- <router-link :to="{path:'/Login',query:{currentType:'register'}}">注册</router-link> -->
+      <!-- <router-link :to="{path:'/Login',query:{currentType:'login'}}">登陆</router-link>  |   -->
     </div>
     <router-view/>
   </div>
@@ -18,7 +18,6 @@
   text-align: center;
   color: #2c3e50;
   height: 100%;
-  background: url("./assets/image/hkd_background.png");
 }
 html,body,#app{
 height: 100%;
